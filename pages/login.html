@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="body-pagina2">
+    <header>
+        <nav class="navbar2">
+            <div class="navbar-container">
+                <a href="../index.html" class="navbar-logo">
+                    <img src="../Assets/img/Group 12.svg" alt="Logo">
+                </a>
+                <ul class="navbar-menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./aboutus.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#login-modal" class="navbar-login">Login</a>
+            </div>
+        </nav>
+
+        <div id="login-modal" class="login-box">
+            <div class="login-box2">
+                <div class="login-header">
+                    <h2>Login</h2>
+                    <a href="#" class="close-btn">&times;</a>
+                </div>
+                <form class="login-form">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <div class="additional-options">
+                        <label for="remember-me">
+                            <input type="checkbox" id="remember-me" name="remember-me">Remember Me
+                        </label>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+                    <button type="submit">Login</button>
+                    <div class="register-option">
+                        <span>Don't have an account?</span>
+                        <button type="button" class="register-button">Register</button>
+                    </div>
+                </form>
+    </header>
+</body>
+</html>
